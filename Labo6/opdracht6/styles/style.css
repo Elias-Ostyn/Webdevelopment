@@ -1,0 +1,21 @@
+.checklist {
+  list-style: none;
+  padding: 0;
+}
+.checklist li {
+  position: relative;
+  padding-left: 30px;
+  margin: 5px 0;
+}
+.checklist li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 24px;
+  height: 24px;
+  background: url('../img/checkbox.png') no-repeat center/contain;
+}
+.checklist li.checked::before {
+  background-image: url('../img/checkbox-checked.png');
+}
