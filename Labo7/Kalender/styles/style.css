@@ -1,0 +1,47 @@
+table {
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+caption {
+    background-color: rgb(170, 170, 200);
+    color: rgb(200, 190, 240);
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+th {
+    background-color: rgb(35, 37, 70);
+    color: rgb(200, 190, 240);
+    padding: 5px 10px;
+}
+
+td {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+tr > td:first-child,
+tr > td:last-child {
+    background-color: rgb(255, 220, 220);
+}
+
+
+td.grijs {
+    background-color: rgb(230, 230, 230) !important;
+    color: gray;
+}
+
+
+/* important heb ik opgezocht omdat ik anders vast zat  -_- */
+tr > td.feestdag {
+    background-color: rgb(250, 120, 120) !important;
+    color: black;
+}

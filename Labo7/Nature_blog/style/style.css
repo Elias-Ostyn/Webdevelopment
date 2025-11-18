@@ -1,0 +1,77 @@
+/* --- Algemene layout --- */
+section {
+    width: 95%;
+    margin: 0 auto;
+    background: white;
+    font-family: Arial, sans-serif;
+}
+
+
+section > header {
+    background-image: url("../img/header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 10px;
+}
+
+section > header h1 {
+    color: white;
+    font-size: 48px;
+    margin: 0 0 10px 0;
+}
+
+
+nav {
+    background-color: #333;
+    padding: 8px;
+}
+
+nav a {
+    color: #8CC63E;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* --- Artikels --- */
+div article {
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+
+article h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+article p {
+    line-height: 1.4em;
+}
+
+article footer a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+article footer a:hover {
+    text-decoration: underline;
+}
+
+/* --- Footer --- */
+section > footer {
+    text-align: left;
+    padding: 20px;
+    font-size: 12px;
+    color: #333;
+}
