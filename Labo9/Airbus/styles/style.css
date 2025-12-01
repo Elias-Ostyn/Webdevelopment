@@ -1,0 +1,146 @@
+/* Algemene pagina-instellingen */
+body {
+    width: 95%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* TOP-GEBIED */
+.top-title {
+    height: 200px;
+    background-image: url("../images/bgsky3.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    color: darkblue;
+}
+
+/* TITELS */
+.top-title h1 {
+    font-size: 300%;
+    font-weight: bold;
+    font-style: italic;
+    margin: 20px 0 5px 0;
+}
+
+.top-title p {
+    font-size: 240%;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Vliegtuig afbeelding */
+.top-title img {
+    position: absolute;
+    right: 250px;
+    bottom: 60px;
+    z-index: 10;
+}
+
+/* NIEUWSGEBIED — rechts */
+.news-block {
+    width: 29.8%;
+    background-color: #dddddd;
+    border: 1px solid #999999;
+    float: right;             /* ✔ naar rechts */
+}
+
+/* KOPPEN BINNEN NEWS */
+.news-block h3 {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-size: 120%;
+    margin: 15px 0 5px 0;
+    padding: 5px 0;
+}
+
+/* GEWONE TEKST BINNEN NEWS */
+.news-block p {
+    color: #666666;
+    font-size: 90%;
+    margin: 0 0 15px 0;
+}
+
+/* MAIN LINKS */
+main {
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+    float: left;              /* ✔ naar links */
+}
+
+/* INTRO SECTIE */
+.introduction {
+    background-color: white;
+    color: black;
+    text-align: left;
+    padding: 20px 30px 20px 0;
+}
+
+.introduction span {
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* LOGO */
+.logo-section img {
+    margin: 20px;
+    display: block;
+}
+
+/* GALERIJ */
+.gallery {
+    background-color: #999999;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gallery .foto {
+    background-color: white;
+    padding: 10px;
+    border: 1px dotted #999999;
+    width: 180px;
+    height: 180px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery .foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* FOOTER */
+.footer-links {
+    clear: both;            /* ✔ zodat footer ONDER alles komt */
+    background-color: #666666;
+    color: white;
+    line-height: 2em;
+    padding-left: 120px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: red;
+}
+
+.copyright {
+    clear: both;            /* ✔ extra zekerheid */
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+}
