@@ -1,0 +1,63 @@
+/* Letter-styling (geen centering) */
+#a, #b, #c, #d, #e, #f, #g {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    padding: 10px; /* zodat de letter niet tegen de rand plakt */
+}
+
+/* A */
+#a {
+    min-height: 165px;
+    border: solid black;
+    border-width: 0 7.5px 15px 0;
+    background: #fff;
+}
+
+/* B */
+#b {
+    min-height: 190px;
+    border: solid black;
+    border-width: 15px 7.5px 7.5px 0;
+    background: #fff;
+}
+
+/* C */
+#c {
+    min-height: 355px;
+    border: solid black;
+    border-width: 0 0 7.5px 7.5px;
+    background: rgb(220, 40, 26);
+}
+
+/* D */
+#d {
+    min-height: 150px;
+    border: solid black;
+    border-width: 7.5px 7.5px 0 0;
+    background: rgb(0, 93, 159);
+}
+
+/* E */
+#e {
+    min-height: 150px;
+    border: solid black;
+    border-width: 7.5px 7.5px 0 7.5px;
+    background: black;
+}
+
+/* F */
+#f {
+    min-height: 75px;
+    border: solid black;
+    border-width: 7.5px 0 12.5px 7.5px;
+    background: #fff;
+}
+
+/* G */
+#g {
+    min-height: 75px;
+    border: solid black;
+    border-width: 12.5px 0 0 7.5px;
+    background: rgb(242, 224, 122);
+}

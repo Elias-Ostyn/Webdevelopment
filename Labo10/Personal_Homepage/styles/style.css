@@ -1,0 +1,127 @@
+/* Algemene zwarte achtergrond */
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Navbar zwart + neon hover */
+.custom-navbar {
+    background-color: #000;
+    border-bottom: 2px solid red;
+}
+
+.custom-navbar .nav-link {
+    color: #fff;
+    transition: 0.2s;
+}
+
+.custom-navbar .nav-link:hover {
+    color: red;
+    text-shadow: 0 0 8px red;
+}
+
+.custom-navbar .navbar-brand {
+    color: #fff;
+}
+
+.custom-navbar .navbar-brand:hover {
+    color: red;
+    text-shadow: 0 0 8px red;
+}
+
+/* Hamburger icon wit */
+.navbar-toggler-icon {
+    filter: invert(100%);
+}
+
+
+
+/* ======= PERSONAL INFO ======= */
+.personal-section {
+    background-color: #111;
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    color: red;
+    font-weight: bold;
+    text-shadow: 0 0 10px red;
+}
+
+
+
+/* ======= HOBBY SECTION ======= */
+.hobby-section {
+    background-color: #0d0d0d;
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+}
+
+/* Hobby cards */
+.hobby-card h4 a,
+.interests-section h4 a {
+    color: red;
+    text-decoration: none;
+    text-shadow: 0 0 10px red;
+    transition: 0.2s;
+}
+
+.hobby-card h4 a:hover,
+.interests-section h4 a:hover {
+    color: white;
+    text-shadow: 0 0 15px red;
+}
+
+.hobby-card {
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    border: 2px solid #222;
+    transition: transform 0.25s, box-shadow 0.25s, border-color 0.25s;
+}
+
+.hobby-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 15px red;
+    border-color: red;
+}
+
+
+
+/* ======= INTERESSES ======= */
+.interests-section {
+    background-color: #111;
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+}
+
+.interests-section .section-title {
+    color: red;
+    text-shadow: 0 0 10px red;
+}
+
+
+.carousel-inner img {
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #222;
+}
+
+.carousel-inner img:hover {
+    border: 2px solid red;
+    box-shadow: 0 0 12px red;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
+
+h4 {
+    color: red;
+    text-shadow: 0 0 10px red;
+}
