@@ -1,0 +1,71 @@
+/* items */
+div div {
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 3em;
+}
+
+/* kleuren */
+.item-1 { background: #b03532; }
+.item-2 { background: #33a8a5; }
+.item-3 { background: #30997a; }
+.item-4 { background: #6a478f; }
+.item-5 { background: #da6f2b; }
+.item-6 { background: #3d8bb1; }
+.item-7 { background: #e03f3f; }
+.item-8 { background: #59a627; }
+.item-9 { background: #4464a1; }
+
+
+body > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+/* VERBERGEN OP MOBIEL */
+.item-1,
+.item-6 {
+    display: none;
+}
+
+/* volgorde mobiel */
+.item-9 { order: 1; }
+.item-2 { order: 2; }
+.item-4 { order: 3; }
+.item-5 { order: 4; }
+.item-7 { order: 5; }
+.item-8 { order: 6; }
+
+.item-3 {
+    order: 7;
+    grid-column: 1 / -1;
+}
+
+@media (min-width: 760px) {
+    body > div {
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+
+
+    .item-1,
+    .item-6 {
+        display: block;
+    }
+
+
+    .item-1 { order: 1; }
+    .item-2 { order: 2; }
+    .item-3 { order: 3; }
+    .item-4 { order: 4; }
+    .item-5 { order: 5; }
+    .item-6 { order: 6; }
+    .item-7 { order: 7; }
+    .item-8 { order: 8; }
+    .item-9 { order: 9; }
+
+    .item-3 {
+        grid-column: auto;
+    }
+}
