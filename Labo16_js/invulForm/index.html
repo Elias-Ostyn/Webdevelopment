@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>invulform</title>
+</head>
+<body>
+
+<form action="" method="Post">
+
+<fieldset>
+    <legend>persooonlijke informatie</legend>
+    <label for="firstname">Voornaam* </label>
+    <input type="text" id="firstname" name="firstname" placeholder="Your first name" required autofocus>
+
+    <br>
+
+    <label for="lastname">famillienaam* </label>
+    <input type="text" id="lastname" name="lastname" placeholder="Your Last Name" required>
+
+</fieldset>
+
+<!-- Sport -->
+<fieldset>
+    <legend>Sport</legend>
+
+    <p>Welke sport beoefen je?</p>
+
+    <input type="checkbox" id="lopen" name="sport" value="lopen">
+    <label for="lopen">Lopen</label><br>
+
+    <input type="checkbox" id="zwemmen" name="sport" value="zwemmen">
+    <label for="zwemmen">Zwemmen</label><br>
+
+    <input type="checkbox" id="roeien" name="sport" value="roeien">
+    <label for="roeien">Roeien</label>
+</fieldset>
+
+<br>
+
+<!-- Communicatievoorkeur -->
+<fieldset>
+    <legend>Communicatievoorkeur</legend>
+
+    <p>Hoe kunnen we je bereiken?</p>
+
+    <input type="radio" id="post" name="contact" value="post">
+    <label for="post">Per post</label><br>
+
+    <input type="radio" id="email" name="contact" value="email">
+    <label for="email">E-mail</label>
+</fieldset>
+
+<br>
+
+<!-- Favorieten -->
+<fieldset>
+    <legend>Favorieten</legend>
+
+    <label for="film">Favoriete film</label>
+    <input type="text" id="film" name="film">
+
+    <br><br>
+
+    <label for="quote">Favoriete quote</label>
+    <textarea id="quote"
+              name="quote"
+              placeholder="Schrijf je favoriete quote"></textarea>
+
+    <br><br>
+
+    <label for="eten">Favoriete eten</label>
+    <select id="eten" name="eten">
+        <option value="hamburger">Hamburger</option>
+        <option value="hotdog">Hot-dog</option>
+        <option value="pizza">Pizza</option>
+    </select>
+
+    <br><br>
+
+    <label for="browser">Favoriete browser</label>
+    <input type="text" id="browser" name="browser">
+</fieldset>
+
+<br>
+
+<!-- Beveiliging & contact -->
+<fieldset>
+    <legend>Beveiliging & contact</legend>
+
+    <label for="password">Wachtwoord*</label>
+    <input type="password"
+           id="password"
+           name="password"
+           required>
+
+    <br><br>
+
+    <label for="emailadres">E-mailadres*</label>
+    <input type="email"
+           id="emailadres"
+           name="emailadres"
+           placeholder="Geef je e-mailadres in"
+           required>
+
+    <br><br>
+
+    <label for="website">Favoriete site</label>
+    <input type="url"
+           id="website"
+           name="website"
+           placeholder="Geef de URL van je favoriete site">
+</fieldset>
+
+<br>
+
+<!-- Extra informatie -->
+<fieldset>
+    <legend>Extra informatie</legend>
+
+    <label for="getal1">Favoriete getal tussen 1-10</label>
+    <input type="number"
+           id="getal1"
+           name="getal1"
+           min="1"
+           max="10">
+
+    <br><br>
+
+    <label for="getal2">Favoriete getal tussen 11-1000</label>
+    <input type="range"
+           id="getal2"
+           name="getal2"
+           min="11"
+           max="1000">
+
+    <br><br>
+
+    <label for="geboortedatum">Wanneer ben je geboren?</label>
+    <input type="date"
+           id="geboortedatum"
+           name="geboortedatum">
+
+    <br><br>
+
+    <label for="postcode">Belgische postcode</label>
+    <input type="text"
+           id="postcode"
+           name="postcode"
+           placeholder="postcode">
+</fieldset>
+
+<br>
+
+<!-- Varia -->
+<fieldset>
+    <legend>Varia</legend>
+
+    <label for="zoek">Zoeken naar iets</label>
+    <input type="search" id="zoek" name="zoek">
+
+    <br><br>
+
+    <label for="kleur">Wat is je lievelingskleur?</label>
+    <input type="color" id="kleur" name="kleur">
+
+    <br><br>
+
+    <label for="bestand">Bestand kiezen</label>
+    <input type="file" id="bestand" name="bestand">
+</fieldset>
+
+<br>
+
+<input type="submit" value="Submit">
+
+</form>
+</body>
+</html>
