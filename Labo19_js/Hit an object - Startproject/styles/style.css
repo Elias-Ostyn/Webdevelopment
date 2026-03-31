@@ -1,0 +1,13 @@
+#playField {
+    position: relative;
+    width: 600px;
+    height: 800px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+#target {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+}

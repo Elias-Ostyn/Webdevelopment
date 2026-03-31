@@ -1,0 +1,55 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+#spel {
+    display: grid;
+    grid-template-columns: repeat(4, 120px);
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.kaart {
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+    position: relative;
+}
+
+.kaart img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.voorkant {
+    display: none;
+}
+
+.achterkant {
+    display: block;
+}
+
+.omgedraaid .voorkant {
+    display: block;
+}
+
+.omgedraaid .achterkant {
+    display: none;
+}
+
+.verborgen {
+    visibility: hidden;
+}
+
+.juist {
+    border: 4px solid green;
+}
+
+.fout {
+    border: 4px solid red;
+}
