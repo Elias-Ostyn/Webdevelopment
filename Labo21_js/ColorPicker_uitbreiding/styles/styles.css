@@ -1,0 +1,56 @@
+.pickerContainer {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	border: 2px solid #ccc;
+	padding: 15px;
+	width: fit-content;
+	border-radius: 10px;
+	background-color: #f5f5f5;
+}
+
+.sliders div {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-bottom: 5px;
+}
+
+.rightSide {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+
+.colorDemo {
+	width: 80px;
+	height: 80px;
+	border: 2px solid black;
+	border-radius: 8px;
+}
+
+.savedColors {
+	margin-top: 20px;
+	display: flex;
+	gap: 15px;
+}
+
+.colorBox {
+	width: 80px;
+	height: 80px;
+	position: relative;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+.deleteBtn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #eee;
+	padding: 2px 6px;
+	cursor: pointer;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+}

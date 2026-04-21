@@ -1,0 +1,39 @@
+<!DOCTYPE html> 
+<html lang="nl"> 
+<head> 
+	<title>Demonstratie slider</title>
+	<link rel="stylesheet" href="styles/styles.css">
+</head> 
+<body>
+<div class="pickerContainer">
+	<div class="sliders">
+		<div>
+			<input type="range" class="slider1" value="128" min="0" max="255">
+			<span>Red <span id="valueR">128</span></span>
+		</div>
+
+		<div>
+			<input type="range" class="slider2" value="14" min="0" max="255">
+			<span>Green <span id="valueG">14</span></span>
+		</div>
+
+		<div>
+			<input type="range" class="slider3" value="255" min="0" max="255">
+			<span>Blue <span id="valueB">255</span></span>
+		</div>
+	</div>
+
+	<div class="rightSide">
+		<div class="colorDemo"></div>
+		<button id="saveColor">Save</button>
+		<button id="FavoKleur">Favoriet</button>
+	</div>
+</div>
+
+<div class="savedColors"></div>
+
+
+
+	<script src="scripts/code.js"></script>
+</body> 
+</html> 
