@@ -48,19 +48,19 @@ const maakLeegFormulier = () => {
 };
 
 const updateLijst = () => {
-    let lst = document.getElementById("lstPersonen");
-    lst.innerHTML = "";
+    let lijst = document.getElementById("lstPersonen");
+    lijst.innerHTML = "";
     for (let i = 0; i < personen.length; i++) {
         let option = document.createElement("option");
         option.text = personen[i].voornaam + " " + personen[i].familienaam;
         option.value = i; // ik hou hier de index bij
-        lst.appendChild(option);
+        lijst.appendChild(option);
     }
 };
 
 const toonPersoon = () => {
-    let lst = document.getElementById("lstPersonen");
-    huidigeIndex = parseInt(lst.value);
+    let lijst = document.getElementById("lstPersonen");
+    huidigeIndex = parseInt(lijst.value);
 
     let persoon = personen[huidigeIndex];
 
