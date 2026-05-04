@@ -1,0 +1,54 @@
+.youtube {
+    background-color: red;
+}
+
+.google {
+    background-color: cornflowerblue;
+}
+
+.instagram {
+    background-color: lightpink;
+}
+
+.twitter {
+    background-color: lightblue;
+}
+
+.div h5{
+    color: white;
+}
+.go-button {
+    background-color: black;
+    color: white;
+    font-size: 0.8rem;
+    padding: 4px 10px;
+    text-decoration: none;
+    border-radius: 4px;
+    align-self: flex-start;
+    margin-top: auto;
+}
+
+.go-button:hover {
+    background-color: #333;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-body a {
+    margin-top: auto;
+    align-self: flex-start;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.card-body a:hover {
+    background-color: #333;
+}
