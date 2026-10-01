@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title></title>
+</head>
+<body>
+<div class="container mt-4">
+
+    <!-- BOVENSTE DEEL: statisch -->
+    <h1>My Internet Start Page</h1>
+
+    <label for="inputCommando">Zoekopdracht</label>
+    <input type="text" id="inputCommando" class="form-control" placeholder="Enter commando">
+    <small class="text-muted">Start your commando with "/[character] [zoekopdracht]"</small>
+
+    <button id="btnGo" class="btn btn-success w-100 mt-2">GO!</button>
+
+    <!-- ONDERSTE DEEL: history -->
+    <h2 class="mt-4">History</h2>
+    <div id="history" class="row">
+        <!-- cards komen hier dynamisch via JS -->
+    </div>
+
+</div>
+<script src="scripts/code.js"></script>
+</body>
+</html>

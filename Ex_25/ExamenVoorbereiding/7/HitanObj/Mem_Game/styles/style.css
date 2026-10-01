@@ -1,0 +1,29 @@
+#speelveld {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.kaart {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border: 3px solid transparent;
+}
+
+.kaart.goed {
+    border: 3px solid green;
+}
+
+.kaart.fout {
+    border: 3px solid red;
+}
+
+.kaart.verwijderd {
+    visibility: hidden;
+}
+
+body.busy {
+    cursor: wait;
+}

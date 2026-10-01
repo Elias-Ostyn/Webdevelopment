@@ -9,6 +9,7 @@ const setup = () => {
     knop.addEventListener("click", () => {
         const resultaat = maakMetSpaties(input.value);
         console.log(resultaat);
+
     });
 };
 

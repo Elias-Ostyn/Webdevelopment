@@ -20,4 +20,3 @@ const uitvoeren = () => {
     document.getElementById("txtOutput").innerHTML=resultaat;
 
 }
-window.addEventListener("load", setup);

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bibliotheek</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>📚 Mijn Bibliotheek</h1>
+    <span id="teller">0 boeken</span>
+  </header>
+
+  <main>
+    <section class="formulier-sectie">
+      <h2>Boek toevoegen</h2>
+      <div class="formulier">
+        <input type="text" id="titel" placeholder="Titel">
+        <input type="text" id="auteur" placeholder="Auteur">
+        <select id="genre">
+          <option value="fictie">Fictie</option>
+          <option value="non-fictie">Non-fictie</option>
+          <option value="thriller">Thriller</option>
+          <option value="fantasy">Fantasy</option>
+        </select>
+        <button id="voegToeBtn">Toevoegen</button>
+      </div>
+    </section>
+
+    <section class="gebruikers-sectie">
+      <h2>Actieve gebruiker</h2>
+      <div class="gebruikers">
+        <button class="gebruiker actief" data-naam="Sara">Sara</button>
+        <button class="gebruiker" data-naam="Luca">Luca</button>
+        <button class="gebruiker" data-naam="Emma">Emma</button>
+      </div>
+      <p>Geselecteerd: <strong id="actieveGebruiker">Sara</strong></p>
+    </section>
+
+    <section class="boeken-sectie">
+      <h2>Boekencollectie</h2>
+      <div id="boekenLijst" class="boeken-grid">
+        <!-- Boeken worden hier door JS ingevoegd -->
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

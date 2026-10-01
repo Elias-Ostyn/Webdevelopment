@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <title></title>
+</head>
+<body>
+<h1>Takenplanner</h1>
+
+<span id="teller">0 taken</span>
+
+<input id="taak" placeholder="Nieuwe taak">
+
+<select id="prioriteit">
+    <option value="laag">Laag</option>
+    <option value="normaal">Normaal</option>
+    <option value="hoog">Hoog</option>
+</select>
+
+<button id="toevoegen">Toevoegen</button>
+
+<h2>Actieve gebruiker</h2>
+<button class="gebruiker actief" data-naam="Tom">Tom</button>
+<button class="gebruiker" data-naam="Lina">Lina</button>
+
+<div id="lijst"></div>
+
+<script src="scripts/code.js"></script>
+</body>
+</html>
